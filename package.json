@@ -1,5 +1,5 @@
 {
-    "name": "react-native-deck-swiper",
+    "name": "@gfpacheco/react-native-deck-swiper",
     "version": "2.0.5",
     "description": "Awesome tinder like card swiper for react-native. Highly Customizable!",
     "main": "index.js",
