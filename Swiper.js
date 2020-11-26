@@ -38,7 +38,7 @@ class Swiper extends Component {
   static getDerivedStateFromProps(props, state) {
     if (!isEqual(props.cards, state.cards)) {
       return {
-        ...calculateCardIndexes(state.firstCardIndex % props.cards.length, props.cards),
+        ...calculateCardIndexes(props.cardIndex % props.cards.length, props.cards),
         cards: props.cards
       };
     }
